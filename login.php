@@ -13,7 +13,7 @@ $loginError = $_GET['message'];
 <body> 
     <div class="container text-center">
         <h1>Please login to enjoy our math game.</h1>
-        <form action="authenticate.php" method="post" role="form">
+        <form action="authenticate.php" method="post">
             <div class="form-group row">
                 <div class="col-sm-4 text-right col-sm-offset-1">
                     <label class="col-form-label" for="email">Email:</label>

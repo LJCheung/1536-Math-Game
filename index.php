@@ -38,7 +38,7 @@ if (!isset($_SESSION["authenticated"])){
             $operator = array('+','-');
             $randoperator = $operator[rand(0,1)];
             
-            echo $number1 . "&nbsp&nbsp&nbsp&nbsp&nbsp;" . $randoperator . "&nbsp&nbsp&nbsp&nbsp&nbsp;" . $number2;
+            echo $number1 . "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" . $randoperator . "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" . $number2;
             
             switch ($operation) {
             case "+":
@@ -51,7 +51,7 @@ if (!isset($_SESSION["authenticated"])){
             
             ?>    
         </div>   
-        <form action="index.php" method="post" role="form">
+        <form action="index.php" method="post">
             <div class="form-group row">
                 <div class="col-sm-4 col-sm-offset-4"><br />
                 	<input type="text" class="form-control" id="input" name="input" placeholder="Enter answer" size="6">
@@ -95,7 +95,7 @@ if (!isset($_SESSION["authenticated"])){
                             echo '<div class="col-sm-4 col-sm-offset-4"><span class=message>INCORRECT, ' . $first_number . " " . $operation . " " . $second_number . ' is ' . $correct_value . '.</span></div>';
                         }
                     } else {
-                        echo '<div class="col-sm-4 col-sm-offset-4"><span class=message>Please input number</div>';
+                        echo '<div class="col-sm-4 col-sm-offset-4"><span class=message>Please input number</span></div>';
                     }
             ?>
         </div>
