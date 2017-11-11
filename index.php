@@ -18,7 +18,7 @@ if (!isset($_SESSION["authenticated"])){
         <div class="col-sm-12 text-right">
         	<a href="logout.php" class="btn btn-primary">Logout</a>
         </div>
-        <header><img src="pixel-speech-bubble.png" alt=""></header>
+        <header><img src="images/pixel-speech-bubble.png" alt=""></header>
         <div class="row" id="equation">
             <?php 
             extract($_POST);
