@@ -1,0 +1,28 @@
+.banner {
+    text-align: center;
+}
+
+body {
+    background-color: lightcyan;
+    color: black;
+    background: url(test.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+#equation {
+    font-size: large;
+    font-weight: bold;
+}
+
+.message {
+    color: darkred;
+    font-weight: bold;
+}
+
+.correct {
+    color: green;
+    font-weight: bold;
+}
