@@ -2,7 +2,7 @@
 session_start();
 extract($_POST);
 
-$info = explode("\n",
+$info = explode("\r\n",
     file_get_contents("credentials.config"));
 
 foreach ($info as $entryPair) {
