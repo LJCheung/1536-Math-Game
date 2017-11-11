@@ -11,7 +11,7 @@ if (!isset($_SESSION["authenticated"])){
     <title>Math Game</title> 
     <meta charset="utf-8"> 
     <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
 </head> 
 <body> 
     <div class="container text-center">
