@@ -6,4 +6,4 @@ Collaborators:
 Loretta Cheung, Shasha Hua, Erwin Berceles
 
 Project can also be viewed at:
-http://www.BCITMathGame.azurewebsites.net
+http://BCITMathGame.azurewebsites.net
